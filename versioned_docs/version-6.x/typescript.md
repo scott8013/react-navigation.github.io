@@ -31,7 +31,7 @@ Specifying `undefined` means that the route doesn't have params. A union type wi
 After we have defined the mappings, we need to tell our navigator to use it. To do that, we can pass it as a generic to the `createXNavigator` functions:
 
 ```tsx
-import { createStackNavigator } from '@react-navigation/stack';
+import { createStackNavigator } from '@react-navigation/native-stack';
 
 const RootStack = createStackNavigator<RootStackParamList>();
 ```
